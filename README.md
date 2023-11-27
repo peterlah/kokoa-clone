@@ -40,3 +40,9 @@ extensions
 
 - Community Material Theme
 - Material Icon Theme
+
+# 2.7 More Tagse
+
+- html tag search
+  https://developer.mozilla.org/ko/docs/Web/HTML/Element
+- 동시 변경 -> 영역 선택 -> ctrl(command) + d
