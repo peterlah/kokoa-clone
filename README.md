@@ -33,3 +33,10 @@ Style Language
 Programming Language
 
 - JavaScript is for Interactivity.
+
+# 2.1 Setup and Errors
+
+extensions
+
+- Community Material Theme
+- Material Icon Theme
