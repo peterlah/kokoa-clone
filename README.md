@@ -11,3 +11,7 @@
 # 1.6 What is HTML
 
 HTML is for Content.
+
+# 1.7 What is CSS
+
+CSS is for Design.
