@@ -46,3 +46,9 @@ extensions
 - html tag search
   https://developer.mozilla.org/ko/docs/Web/HTML/Element
 - 동시 변경 -> 영역 선택 -> ctrl(command) + d
+
+# 2.10 Semantic HTML
+
+- div -> division -> 그냥 박스
+- 문서를 보기만해도 그 의미를 짐작할 수 있는 걸 sementic이라고 함
+- header, main, footer
