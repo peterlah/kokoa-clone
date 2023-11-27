@@ -15,3 +15,7 @@ HTML is for Content.
 # 1.7 What is CSS
 
 CSS is for Design.
+
+# 1.8 What is JavaScript
+
+JavaScript is for Interactivity.
