@@ -66,3 +66,12 @@ extensions
     <link href="styles.css" rel="stylesheet">
   ** href -> hypertext reference
   ** rel -> relationship
+
+# 3.2 What Does Cascading Mean
+
+- CSS 는 위에서 아래로 읽기 때문에 가장 하단에 있는 CSS 스타일이 최종적으로 적용됨
+
+# 3.3 Blocks and Inlines
+
+- Blocks - 한줄을 다 차지 : div, p, address 등등
+- Inlines - 옆에 다른 요소가 올수 있음 : span, a, img 등등
