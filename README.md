@@ -75,3 +75,13 @@ extensions
 
 - Blocks - 한줄을 다 차지 : div, p, address 등등
 - Inlines - 옆에 다른 요소가 올수 있음 : span, a, img 등등
+
+# 3.4 Margin Part One
+
+![Alt text](image.png)
+
+# 3.5 Margin Part Two
+
+- margin: top right bottom left
+  top+bottom right+left
+- collapsing margins : Blocks에만 있는 특이한 현상으로 위아래 마진이 중복되는 경우 더 큰값을 가진 쪽으로 병합 되는 현상
