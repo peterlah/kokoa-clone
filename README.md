@@ -90,3 +90,9 @@ extensions
 
 - id는 유니크해야함. 따라서 여러 요소에 동시에 스타일을 적용하고 싶은 경우 클래스를 통해 할당 가능
 - id에 css를 적용하는 경우 "#"을 접두사로 사용 클래스를 사용하는 경우 "."을 접두사로 사용
+
+# 3.10 Flexbox Part One
+
+- flexbox를 사용하려면 자식요소에 사용하지 말고 부모 요소에 사용할 것
+- justify-content : main-axis / horizantal
+- alingn-item : cross-axis / vertical
