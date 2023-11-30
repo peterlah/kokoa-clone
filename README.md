@@ -106,4 +106,20 @@ extensions
 # 3.12 Fixed
 
 - position: fixed; - 화면에 컨텐츠가 고정 됨
-- position은 레이아웃 보다는 위치를 아주 조금 움직이고 싶을때 사용
+- position은 일반적으로 레이아웃 보다는 위치를 아주 조금 움직이고 싶을때 사용
+- position fixed를 이용하면 스크롤해도 항상 제자리에 머무른다.
+- 처음 만들어진 자리에 고정 되어있다. 하지만 top, left, right, bottom 중 하나만 수정해도 서로 다른 레이어에 위치하게되어 원래 위치가 무시된다.
+- positon fixed를 이용하면 가장 위에 위치하게 된다. (맨 앞)
+
+# 3.13 Relative Absolute
+
+- positon: static; (default)
+- position: fixed; -> element가 처음 생성된 자리에 고정.
+- position: relative; -> element가 '처음 생성된 위치'를 기준점으로, top bottom left right으로 위치를 조금씩 수정할 수 있음
+
+```
+position: relative;
+top: -10px;
+```
+
+- position: absolute; -> 가장 가까운 relative 부모를 기준으로 이동 position:relative; 를 해주면 부모가 됨. 없으면 body가 부모.
