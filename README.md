@@ -165,3 +165,8 @@ color: black;
 }
 + 를 사용하면 형제에게 영향을 끼칠 수 있다. cool
 ```
+
+# 3.16 Pseudo Selectors part Two
+
+- \*= is 'contains'
+- ~= is 'exactly'
