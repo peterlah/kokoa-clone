@@ -128,3 +128,13 @@ top: -10px;
 
 - # : id
 - . : class
+  div:first-child {
+  background-color: teal;
+  }
+  div:last-child {
+  background-color: red;
+  }
+
+span:nth-child(5n) {
+background-color: teal;
+} -> even, odd 등
