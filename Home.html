@@ -6,27 +6,38 @@
     <style>
       body {
         height: 1000vh;
-        margin: 20px;
+        margin: 50px;
       }
-      div {
-        width: 200px;
-        height: 200px;
+      span {
+        background-color: tomato;
+      }
+      /* div {
+        width: 150px;
+        height: 150px;
         background-color: wheat;
-        /* position: relative; */
+        position: relative;
       }
-      .green {
+      div:first-child {
         background-color: teal;
-        height: 75px;
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        width: 75px;
+      }
+      div:last-child {
+        background-color: red;
+      } */
+      span:nth-child(5n) {
+        background-color: teal;
       }
     </style>
   </head>
   <body>
-    <div>
-      <div class="green"></div>
-    </div>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
   </body>
 </html>

@@ -123,3 +123,8 @@ top: -10px;
 ```
 
 - position: absolute; -> 가장 가까운 relative 부모를 기준으로 이동 position:relative; 를 해주면 부모가 됨. 없으면 body가 부모.
+
+# 3.14 Pseudo Selectors part One
+
+- # : id
+- . : class
