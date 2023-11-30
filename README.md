@@ -96,3 +96,9 @@ extensions
 - flexbox를 사용하려면 자식요소에 사용하지 말고 부모 요소에 사용할 것
 - justify-content : main-axis / horizantal
 - alingn-item : cross-axis / vertical
+- vh - viewport height : 스크린 크기를 나타냄 100을 주면 화면의 100%를 의미
+
+# 3.11 Flexbox Part Two
+
+- flex-direction : 컨턴츠를 수평으로 나타낼지, 수직으로 표현할지 결정 - 기본 수평
+  - reverse 옵션으로 역순 정렬도 가능
