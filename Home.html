@@ -9,35 +9,29 @@
         margin: 50px;
       }
       span {
-        background-color: tomato;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
       }
-      /* div {
-        width: 150px;
-        height: 150px;
-        background-color: wheat;
-        position: relative;
+      p span {
+        color: teal;
       }
-      div:first-child {
-        background-color: teal;
+      div > span {
+        text-decoration: underline;
       }
-      div:last-child {
-        background-color: red;
-      } */
-      span:nth-child(5n) {
-        background-color: teal;
+      p + span {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div>
+      <span>hello</span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.
+        <span>inside</span>
+      </p>
+      <span>aa</span>
+    </div>
   </body>
 </html>
