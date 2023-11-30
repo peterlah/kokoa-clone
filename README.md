@@ -102,3 +102,8 @@ extensions
 
 - flex-direction : 컨턴츠를 수평으로 나타낼지, 수직으로 표현할지 결정 - 기본 수평
   - reverse 옵션으로 역순 정렬도 가능
+
+# 3.12 Fixed
+
+- position: fixed; - 화면에 컨텐츠가 고정 됨
+- position은 레이아웃 보다는 위치를 아주 조금 움직이고 싶을때 사용
