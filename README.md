@@ -286,3 +286,14 @@ color: var(--main-color);
 - all : 변화 요소를 한번에 다룰떄 사용 -> 따로 다루고 싶을 경우 각각 표기
 - cubic-bezier(0, 0, 0, 0)을 이용해서 자신만의 커브를 만들 수 있음
   https://matthewlein.com/tools/ceaser
+
+# 4.2 Transformations
+
+- transformation은 한 요소를 transform(변형)시킬 수 있다.
+- border-radius에 50%를 준다면 원이 된다.
+- translate은 transformation을 적용 시키긴 하지만, 다른 형제(sibling)을 변화시키진 않는다.
+  → transformation은 box element를 변형시키지 않는다.
+  → margin, padding이 적용되지 않는다. 일종의 3D transformation이기 때문이다.
+  → margin, padding을 위해서 translateX, translateY를 사용하지 않는다.
+- transform과 transition을 조합하면 더 역동적인 애니메이션을 만들 수 있다.
+- CSS 3D는 GPU로 돌아가므로, 3D 작업을 할 수 있다.

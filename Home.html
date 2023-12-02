@@ -3,24 +3,20 @@
   <head>
     <title>Home</title>
     <style>
-      a {
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        /* transition: background-color 10s ease-in-out, color 5s ease-in-out; */
-        /* transition: all 4s ease-in-out; */
-        transition: all 1s cubic-bezier(0.6, 0, 0.735, 0.045);
+      img {
+        width: 50%;
+        height: 50%;
+        border: 5px solid black;
+        border-radius: 50%;
+        transition: transform 5s ease-in-out;
       }
-      a:hover {
-        color: tomato;
-        background-color: wheat;
+      img:hover {
+        /* transform: rotateY(0deg) rotateX(0deg) rotateZ(90deg); */
+        transform: rotateY(360deg) scale(0.5);
       }
     </style>
   </head>
   <body>
-    <a href="#">Go home</a>
+    <img src="img/music_logo1.png" alt="music_logo1" />
   </body>
 </html>
