@@ -314,3 +314,8 @@ to {transform: rotateY(360deg);}
 - 맨뒤에 infinite를 쓰면 5초 동안의 애니메이션이 무한으로 반복.
 
 from {transform: rotateX(0);} to {transform: rotateY(360deg) translateX(180deg);} 이렇게 여러개 조합도 가능함.
+
+# 4.5 Animation Part Two
+
+- from to 말고, 1,2,3,4,5...10 혹은 0% 25% 50% 75% 100% 같이 여러 단계로 나뉘어 애니매이션을 만들 수 있다.
+- 다른 property들도 애니매이션으로 만들 수 있다. 꼭 transform만 써야하는 건 아니지만, transform을 쓰는걸 권한다. 일부 property는 애니매이션이 잘 안되기 때문이다.
