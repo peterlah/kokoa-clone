@@ -170,3 +170,25 @@ color: black;
 
 - \*= is 'contains'
 - ~= is 'exactly'
+
+# 3.17 States
+
+1. active : 대상을 클릭하고 있는 상태
+2. hover : 마우스가 대상 위에 있을때의 상태
+3. focus : active와 비슷하다고 생각될 수 있는데, 키보드로 선택되었을때를 말한다 !
+4. visited : 링크에만 적요이된다 그 링크에 방문했다면 그 안에 스타일이 적용이된다
+5. focus-within : focuse된 자식을 가진 부모 엘리먼트의 상태를 말한다
+   예시에서 form은 그 자식들인 input이 focus가 되면 form의 모습을 바꾼다는 의미
+
+- state들을 다른 엘리먼트와 연계해서 사용 가능
+
+1. 부모의 state에 따라 조정 - form이 hover일경우 input의 백그라운드 컬러가 바뀜, 부모의 state에 따라 자식의 state를 조정 가능
+
+form:hover input {
+background-color: slateblue;
+}
+
+2. 부모와 자식의 state에 따라 조정
+   form:hover input:focus {
+   background-color: teal;
+   }
