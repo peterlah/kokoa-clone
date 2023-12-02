@@ -2,35 +2,24 @@
 <html lang="kr">
   <head>
     <title>Home</title>
-    <link href="styles.css" rel="stylesheet" />
     <style>
-      :root {
-        --main-color: #fcce00;
-        --default-border: 1px solid var(--main-color);
-      }
-      body {
-        height: 1000vh;
-        margin: 50px;
-      }
-      p {
-        color: #ababab;
-        color: rgp(252, 206, 0);
-        background-color: var(--main-color);
-      }
       a {
-        color: var(--main-color);
+        color: wheat;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 55px;
+        /* transition: background-color 10s ease-in-out, color 5s ease-in-out; */
+        transition: all 4s ease-in-out;
+      }
+      a:hover {
+        color: tomato;
+        background-color: wheat;
       }
     </style>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, odit
-      consequuntur iure est consequatur nemo labore deleniti maxime magnam odio
-      quos voluptatum asperiores suscipit illum omnis, nisi, iste perferendis
-      expedita!
-    </p>
-    <div>
-      <a href="#">website</a>
-    </div>
+    <a href="#">Go home</a>
   </body>
 </html>
