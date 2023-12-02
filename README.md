@@ -228,3 +228,42 @@ background-color: slateblue;
    div: focus-within {background-color: cyan}이면, div의 children이 focus 될 때 {}가 작동
 
 6. form: hover input: focus{} 의 경우엔 두 조건 모두 만족해야 {} 안이 실행
+
+# 3.19 Colors and Variables
+
+- 색상 체계 (color system)
+
+1. hex code
+   : #2ecc71와 같은 색상 코드
+
+2. rgb
+   : 각각 red, green, blue를 의미
+   가령, rgb(0,140,200)의 경우엔 red 값이 0, green 값이 140, blue 값이 200
+
+3) rgba
+   : 2와 동일하지만 a가 포함된 형태 'a(alpha)'는 투명도를 담당
+   0(투명)~1(불투명) 사이의 값으로 조절할 수 있음
+
+# variable
+
+custom property -> 강의 variable의 정식 용어
+: 작업량을 줄여줄 수 있는 기능
+
+div {color: #2ecc71}
+p {color: #2ecc71}
+상태에서, 둘 모두의 색을 바꾸고 싶다면 우리는 div와 p의 색상 코드를 지우고, 또 다시 입력해야 함. 그러나 variable을 이용하면 더 간단해짐
+
+- 네이밍 규칙 : -- 로시작 공백은 - 로 표현
+
+:root {
+--main-color: #fcce00;
+}
+
+p {
+color: #ababab;
+color: rgp(252, 206, 0);
+background-color: var(--main-color);
+}
+a {
+color: var(--main-color);
+}

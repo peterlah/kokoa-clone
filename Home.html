@@ -4,34 +4,33 @@
     <title>Home</title>
     <link href="styles.css" rel="stylesheet" />
     <style>
+      :root {
+        --main-color: #fcce00;
+        --default-border: 1px solid var(--main-color);
+      }
       body {
         height: 1000vh;
         margin: 50px;
       }
-      button {
-        padding: 5px;
-        border-radius: 10px;
+      p {
+        color: #ababab;
+        color: rgp(252, 206, 0);
+        background-color: var(--main-color);
       }
-      a:visited {
-        color: tomato;
+      a {
+        color: var(--main-color);
       }
-      a:focus {
-        color: teal;
-      }
-      /* button:hover {
-        background-color: #ff0000;
-      }
-      input:focus {
-        background-color: teal;
-      } */
     </style>
   </head>
   <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, odit
+      consequuntur iure est consequatur nemo labore deleniti maxime magnam odio
+      quos voluptatum asperiores suscipit illum omnis, nisi, iste perferendis
+      expedita!
+    </p>
     <div>
-      <!-- <button>hello</button> -->
-      <!-- <input type="text" />
-      <input type="text" /> -->
-      <a href="https://apple.com">go to apple</a>
+      <a href="#">website</a>
     </div>
   </body>
 </html>
