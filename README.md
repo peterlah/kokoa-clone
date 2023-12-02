@@ -327,3 +327,24 @@ from {transform: rotateX(0);} to {transform: rotateY(360deg) translateX(180deg);
 - min 사이즈와 max사이즈를 조절하여 단계별로 만들면, 스크린 사이즈의 범위를 알 수 있다.
 - 브라우저에서 inspect의 device toolbar를 이용하여 핸드폰 기종 별 사이즈로 브라우저를 볼 수 있다.
 - media screen에 (orientation: landscape)를 이용하면, 세로모드인지 가로모드인지도 구별 할 수 있다.
+
+# 4.7 Media Queries Recap
+
+Media Queries 주요기능
+
+- min-device-width
+- max-device-width
+- orientation: landscape
+- orientation: portrait
+- aspect-ration - 레티나디스플레이 감지가능
+- display-mode
+- inverted-colors
+- lightlevel
+- prefers-contrast
+- resolution
+- monochrome
+
+Media type
+
+- @media screen{}
+- @media print{}
