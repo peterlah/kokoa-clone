@@ -274,3 +274,15 @@ color: var(--main-color);
   특징
 - transtion은 state가 없는 요소에 붙어야함 -> state에 transition을 준다면 변화를 준것(예를들면 hover라면 마우스를 갖다 댄것)을 그만할경우(마우스를 뗄경우) 원래상태로 바로 돌아감
 - transtion에 변화를 준것들은 state에 들어있는것들이 기준이 되어 바뀌는 것 -> 바뀌는 것들에 한정하여 transition 이 일어날 수 있음
+
+# 4.1 Transition Part Two
+
+- transition은 상태에 따라 바뀌는 요소가 있을떄 사용함
+- ease-in function : 브라우저에게 변화하는 방법을 알려주는 역할
+  - linear - 변화 그래프가 직선
+  - ease-in - 시작과 끝이 빠름
+  - ease-out - 시작과 끝이 느림
+  - ease-in-out - 시작이 빠르고 끝이 느림
+- all : 변화 요소를 한번에 다룰떄 사용 -> 따로 다루고 싶을 경우 각각 표기
+- cubic-bezier(0, 0, 0, 0)을 이용해서 자신만의 커브를 만들 수 있음
+  https://matthewlein.com/tools/ceaser
