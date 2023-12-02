@@ -297,3 +297,20 @@ color: var(--main-color);
   → margin, padding을 위해서 translateX, translateY를 사용하지 않는다.
 - transform과 transition을 조합하면 더 역동적인 애니메이션을 만들 수 있다.
 - CSS 3D는 GPU로 돌아가므로, 3D 작업을 할 수 있다.
+
+# 4.4 Animation Part One
+
+- 마우스를 위로 올리거나 transition 없이 계속 재생되는 애니메이션을 만들 수 있음. 우리가 원하는 만큼 만들고 재생시킬 수 있음.
+
+- 애니메이션을 만들기 위한 규칙은 단지 @를 적으면 됨. @ 다음에는 keyframes 라고 적고 그 다음 내가 만들 애니메이션의 이름을 정함. keyframes에는 두가지 옵션이 있음. 먼저, 어느 지점에서 어느 지점까지 움직이는 애니메이션 만들기.
+
+@keyframes supersexycoinflip {
+from {transform: rotateX(0);}
+to {transform: rotateY(360deg);}
+}
+
+- 이렇게 내 에니메이션을 설정하고, 애니메이션을 줄 요소에 img {animation: supersexycoinflip 5s ease-in-out;} 이렇게 적으면 해당 에니메이션 5초 동안 작동.
+
+- 맨뒤에 infinite를 쓰면 5초 동안의 애니메이션이 무한으로 반복.
+
+from {transform: rotateX(0);} to {transform: rotateY(360deg) translateX(180deg);} 이렇게 여러개 조합도 가능함.

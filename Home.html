@@ -3,16 +3,20 @@
   <head>
     <title>Home</title>
     <style>
+      @keyframes coinFlip {
+        from {
+          transform: rotateX(0);
+        }
+        to {
+          transform: rotateY(360deg) translateX(100px);
+        }
+      }
       img {
         width: 50%;
         height: 50%;
         border: 5px solid black;
         border-radius: 50%;
-        transition: transform 5s ease-in-out;
-      }
-      img:hover {
-        /* transform: rotateY(0deg) rotateX(0deg) rotateZ(90deg); */
-        transform: rotateY(360deg) scale(0.5);
+        animation: coinFlip 5s ease-in-out infinite;
       }
     </style>
   </head>
