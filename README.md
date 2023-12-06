@@ -351,3 +351,6 @@ Media type
 
 # 6.2 BEM - block element modifier
 - https://nykim.work/15
+
+# 6.6 Sign Up Screen part Three
+Page ruler redux - chrome extension
