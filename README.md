@@ -348,3 +348,6 @@ Media type
 
 - @media screen{}
 - @media print{}
+
+# 6.2 BEM - block element modifier
+- https://nykim.work/15
