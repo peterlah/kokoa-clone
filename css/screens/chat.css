@@ -8,8 +8,8 @@
     top: 0;
     position: fixed;
     width: 100%;
-    box-sizing: border-box;
     background-color: #abc1d1;;
+    box-sizing: border-box;
 }
 
 #chat-screen .status-bar {
@@ -22,5 +22,16 @@
 }
 
 .main-chat {
-    margin-top: 150px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__timestamp {
+    color: white;
+    background-color: #92a4b2;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 14px;
 }
