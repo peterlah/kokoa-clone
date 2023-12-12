@@ -24,7 +24,14 @@
 .user-component__subtitle {
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0,0,0,0.5)
+    color: rgba(0,0,0,0.5);
+    display: flex;
+}
+
+.user-component__subtitle i {
+    margin-left: 5px;
+    color: red;
+    opacity: 0.4;
 }
 
 .user-component__avatar--xl {
