@@ -19,3 +19,17 @@
 .screen-header__icons span {
     margin-left: 25px;
 }
+
+@keyframes rotateGear {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    } 
+}
+
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotateGear 2s linear infinite;
+}
